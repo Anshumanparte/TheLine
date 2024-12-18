@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="custom-scrollbar">
+    <div class="scroll-thumb"></div>
+</div>
+
+
+    <nav>
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 126 22" class="header-logo__svg"><path d="M126 14.14V7.86h-8.397V6.28H126V0h-15.128v7.86h-1.689V0h-6.708v7.86h-1.689L95.744 0h-6.709v7.86h-1.688V0h-6.709v7.86h-8.397V0H65.51v7.86H45.362V6.28h8.42V0H38.653v7.86h-1.711V0h-6.708v7.86H25.19V0h-6.709v7.86h-6.73V6.28h5.042V0H0v6.28h5.043v1.58H0v6.28h5.043V22h6.708v-7.86h6.731V22h6.709v-7.86h5.043V22h6.708v-7.86h1.711V22h15.129v-6.28h-8.42v-1.58H65.51V22h13.44v-6.28h-6.71v-1.58h8.397V22h6.709v-7.86h1.688V22h6.709v-7.86h1.688l5.043 7.86h6.708v-7.86h1.689V22H126v-6.28h-8.397v-1.58z"></path></svg></div>
+        <div class="status">
+          <span>●</span> OPEN (10–6PM) &nbsp; | &nbsp; LONDON, ENGLAND
+        </div>
+        <div id="nav-right">
+            
+          <a href="#"><span>●</span>HOME</a>
+          <span>/</span>
+          <a href="#">WORK</a>
+            <span>/</span>
+          <a href="#">ENTERTAINMENT</a>
+            <span>/</span>
+          <a href="#">ABOUT</a>
+            <span>/</span>
+          <a href="#">FEED</a>
+            <span>/</span>
+          <a href="#">PODCAST</a>
+            <span>/</span>
+          <a href="#">CONTACT</a>
+            <span>/</span>
+          <a href="#">SHOP</a>
+
+        </div>
+        
+    </nav>
+
+     <div id="preloader">
+        <div id="pre-load-red"></div>
+        <div id="pre-load-nav">
+            <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 126 22" class="header-logo__svg"><path d="M126 14.14V7.86h-8.397V6.28H126V0h-15.128v7.86h-1.689V0h-6.708v7.86h-1.689L95.744 0h-6.709v7.86h-1.688V0h-6.709v7.86h-8.397V0H65.51v7.86H45.362V6.28h8.42V0H38.653v7.86h-1.711V0h-6.708v7.86H25.19V0h-6.709v7.86h-6.73V6.28h5.042V0H0v6.28h5.043v1.58H0v6.28h5.043V22h6.708v-7.86h6.731V22h6.709v-7.86h5.043V22h6.708v-7.86h1.711V22h15.129v-6.28h-8.42v-1.58H65.51V22h13.44v-6.28h-6.71v-1.58h8.397V22h6.709v-7.86h1.688V22h6.709v-7.86h1.688l5.043 7.86h6.708v-7.86h1.689V22H126v-6.28h-8.397v-1.58z"></path></svg></div>
+        <div class="status">
+          <span>●</span> OPEN (10–6PM) &nbsp; | &nbsp; LONDON, ENGLAND
+        </div>
+        <div id="nav-right">
+            
+          <a href="#" class="nav-a"><span>●</span>HOME</a>
+          <span class="nav-span">/</span>
+          <a href="#" class="nav-a">WORK</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">ENTERTAINMENT</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">ABOUT</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">FEED</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">PODCAST</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">CONTACT</a>
+            <span class="nav-span">/</span>
+          <a href="#" class="nav-a">SHOP</a>
+
+        </div>
+        </div>
+        <div id="pre-load-fps">
+            <h1><span>0</span>/24 fps</h1>
+        </div>
+        <div id="pre-load-bottom">
+            <div>
+                <div id="pre-load-bottom-svg-div"><svg id="pre-load-bottom-svg1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 86 86"><path d="M42.9 85.8085c-8.17 0-15.54-1.8242-22.1-5.4725-6.43-3.7942-11.53-8.9019-15.33-15.3229C1.82 58.4461 0 51.0765 0 42.9043c0-8.1723 1.82-15.5419 5.47-22.1089 3.8-6.5669 8.9-11.6746 15.33-15.323C27.36 1.8243 34.73 0 42.9 0c8.18 0 15.47 1.8242 21.89 5.4725 6.57 3.6483 11.68 8.756 15.33 15.3229 3.79 6.567 5.6901 13.9366 5.6901 22.1089 0 8.1722-1.9001 15.5418-5.6901 22.1088-3.65 6.421-8.76 11.5287-15.33 15.3229-6.42 3.6483-13.71 5.4725-21.89 5.4725Zm0-9.1938c9.49 0 17.3-3.1375 23.43-9.4126 6.13-6.4211 9.19-14.5204 9.19-24.2978 0-9.7776-3.06-17.8039-9.19-24.079-6.13-6.421-13.94-9.6315-23.43-9.6315-9.48 0-17.29 3.2105-23.42 9.6315-6.13 6.2751-9.19 14.3014-9.19 24.079 0 9.7774 3.06 17.8767 9.19 24.2978 6.13 6.2751 13.94 9.4126 23.42 9.4126ZM27.14 19.9198h19.27c5.1 0 9.12 1.2405 12.04 3.7213 2.91 2.4809 4.3699 5.7644 4.3699 9.8505 0 2.9186-.9399 5.4725-2.8399 7.6615-1.9 2.1889-4.31 3.6483-7.23 4.3779l10.73 19.2632h-11.6l-6.79-13.5718c-1.31-2.3349-3.06-3.5024-5.25-3.5024h-2.4099v17.0742H27.14V19.9198ZM45.53 39.183c2.04 0 3.65-.4378 4.82-1.3134 1.31-1.0216 1.9699-2.4079 1.9699-4.1591 0-1.6053-.6599-2.8457-1.9699-3.7213-1.17-1.0215-2.78-1.5323-4.82-1.5323h-8.32V39.183h8.32Z"></path></svg></div>
+                <div id="pre-load-bottom-svg2">
+                    <div id="pre-load-bottom-svg2-anime1"></div>
+                      
+                    <svg id="pre-load-bottom-svg2-anime" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 1684 317" class="preloader__logo"><g class="logo__line" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="0 158.29700088500977" transform="matrix(1,0,0,1,0,0)"><path d="M1684 113.277v90.04H0v-90.04h1684Z"></path></g><g class="logo__letter logo__letter--t" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M69.8047 0h95.9793v316.592H69.8047V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="117.79434967041016 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M235.586 0v90.0399H.001V0h235.585Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="117.79350335698109 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--h" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M258.852 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="306.84149169921875 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M415.907 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="463.8965148925781 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--e" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M535.156 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="583.1455078125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M735.842 226.551v90.04H535.158v-90.04h200.684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="635.5000305175781 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M735.842 0v90.0399H535.158V0h200.684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="635.5000305175781 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--l" style="opacity: 1;"><path class="logo__shape logo__shape--x" d="M852.18 0h95.979v316.592H852.18V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="900.1694946289062 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1035.41 226.551v90.04H852.177v-90.04h183.233Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="943.7935180664062 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--i" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1058.68 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1106.6700439453125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--n" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1177.93 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1225.9200439453125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M1177.93 0h95.98l186.14 316.592h-95.98L1177.93 0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1318.9900512695312 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M1364.07 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1412.0599365234375 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--e" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1483.31 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1531.300048828125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1684 226.551v90.04h-200.68v-90.04H1684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1583.6600341796875 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1684 0v90.0399h-200.68V0H1684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1583.6600341796875 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g></svg>
+
+                </div>
+                  
+            </div>
+        </div>
+
+
+    </div> 
+
+    <main>
+        <section id="swipe1">
+            <div class="swipe1-video">
+                <video autoplay muted loop src="./videos/7e559bb3-69a72bf7.mp4"></video>
+
+                <div id="swipe1-swiper">
+                    <div id="colorburnframe">
+                        
+                    </div>
+
+                    <div id="siwpe1-botom-logo">
+                        <div id="siwpe1-botom-logo-svg1"><svg id="pre-load-bottom-svg1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 86 86"><path d="M42.9 85.8085c-8.17 0-15.54-1.8242-22.1-5.4725-6.43-3.7942-11.53-8.9019-15.33-15.3229C1.82 58.4461 0 51.0765 0 42.9043c0-8.1723 1.82-15.5419 5.47-22.1089 3.8-6.5669 8.9-11.6746 15.33-15.323C27.36 1.8243 34.73 0 42.9 0c8.18 0 15.47 1.8242 21.89 5.4725 6.57 3.6483 11.68 8.756 15.33 15.3229 3.79 6.567 5.6901 13.9366 5.6901 22.1089 0 8.1722-1.9001 15.5418-5.6901 22.1088-3.65 6.421-8.76 11.5287-15.33 15.3229-6.42 3.6483-13.71 5.4725-21.89 5.4725Zm0-9.1938c9.49 0 17.3-3.1375 23.43-9.4126 6.13-6.4211 9.19-14.5204 9.19-24.2978 0-9.7776-3.06-17.8039-9.19-24.079-6.13-6.421-13.94-9.6315-23.43-9.6315-9.48 0-17.29 3.2105-23.42 9.6315-6.13 6.2751-9.19 14.3014-9.19 24.079 0 9.7774 3.06 17.8767 9.19 24.2978 6.13 6.2751 13.94 9.4126 23.42 9.4126ZM27.14 19.9198h19.27c5.1 0 9.12 1.2405 12.04 3.7213 2.91 2.4809 4.3699 5.7644 4.3699 9.8505 0 2.9186-.9399 5.4725-2.8399 7.6615-1.9 2.1889-4.31 3.6483-7.23 4.3779l10.73 19.2632h-11.6l-6.79-13.5718c-1.31-2.3349-3.06-3.5024-5.25-3.5024h-2.4099v17.0742H27.14V19.9198ZM45.53 39.183c2.04 0 3.65-.4378 4.82-1.3134 1.31-1.0216 1.9699-2.4079 1.9699-4.1591 0-1.6053-.6599-2.8457-1.9699-3.7213-1.17-1.0215-2.78-1.5323-4.82-1.5323h-8.32V39.183h8.32Z"></path></svg></div>
+
+                        <svg id="siwpe1-botom-logo-svg2" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 1684 317" class="preloader__logo"><g class="logo__line" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="0 158.29700088500977" transform="matrix(1,0,0,1,0,0)"><path d="M1684 113.277v90.04H0v-90.04h1684Z"></path></g><g class="logo__letter logo__letter--t" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M69.8047 0h95.9793v316.592H69.8047V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="117.79434967041016 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M235.586 0v90.0399H.001V0h235.585Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="117.79350335698109 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--h" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M258.852 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="306.84149169921875 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M415.907 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="463.8965148925781 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--e" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M535.156 0h95.979v316.592h-95.979V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="583.1455078125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M735.842 226.551v90.04H535.158v-90.04h200.684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="635.5000305175781 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M735.842 0v90.0399H535.158V0h200.684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="635.5000305175781 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--l" style="opacity: 1;"><path class="logo__shape logo__shape--x" d="M852.18 0h95.979v316.592H852.18V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="900.1694946289062 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1035.41 226.551v90.04H852.177v-90.04h183.233Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="943.7935180664062 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--i" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1058.68 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1106.6700439453125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--n" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1177.93 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1225.9200439453125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M1177.93 0h95.98l186.14 316.592h-95.98L1177.93 0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1318.9900512695312 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--xy" d="M1364.07 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1412.0599365234375 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path></g><g class="logo__letter logo__letter--e" style="opacity: 1;"><path class="logo__shape logo__shape--xy" d="M1483.31 0h95.98v316.592h-95.98V0Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1531.300048828125 158.29600524902344" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1684 226.551v90.04h-200.68v-90.04H1684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1583.6600341796875 271.5709991455078" transform="matrix(1,0,0,1,0,0)"></path><path class="logo__shape logo__shape--y" d="M1684 0v90.0399h-200.68V0H1684Z" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="1583.6600341796875 45.01995086669922" transform="matrix(1,0,0,1,0,0)"></path></g></svg>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="swipe1-swiper2">
+              <div id="swipe1-swiper2-head">
+                <h2><span>/ABOUT THE LINE</span></h2>
+                <h1><span>Highlights</span></h1>
+              </div>
+              <div class="swipe1-swiper2-about">
+                <a href=""><span>The work <sup>[&nbsp;68&nbsp;]</sup></span> <svg class="svg-arrow"  xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 22 19" class="arrow-link__svg arrow-link__svg--main"><path d="m10.392 16.88 7.232-7.264-7.264-7.232 1.696-1.76 8.992 8.992-8.96 8.992zM.568 8.304h18.4v2.656H.568z"></path></svg> </a>
+                <a href=""><span>The Studio</span> <svg class="svg-arrow"  xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 22 19" class="arrow-link__svg arrow-link__svg--main"><path d="m10.392 16.88 7.232-7.264-7.264-7.232 1.696-1.76 8.992 8.992-8.96 8.992zM.568 8.304h18.4v2.656H.568z"></path></svg></a>
+              </div>
+            </div>
+
+            <div id="swipe1-swiper3">
+                <div id="swipe1-swiper3-wrapper">
+                  <div id="swipe1-swiper3-sticky">
+                    
+                    <div id="swipe1-swiper3-work1">
+                      <div id="swipe1-swiper3-work1-before">
+                        <div id="swipe1-swiper3-work1-before-head" class="swipe1-swiper3-swipe1-head">
+                          <h1>Azuki Elementals</h1>
+                          <div class="swipe1-swiper2-about ">
+                            <a href=""><span>View project</span> <svg class="svg-arrow"  xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 22 19" class="arrow-link__svg arrow-link__svg--main"><path d="m10.392 16.88 7.232-7.264-7.264-7.232 1.696-1.76 8.992 8.992-8.96 8.992zM.568 8.304h18.4v2.656H.568z"></path></svg> </a>
+                          </div>
+                          
+                        </div>
+                        <div class="design">
+                         <div class="design2">
+                           
+                         </div>
+                         <div class="design3">
+     
+                         </div>
+                       </div>
+                      </div>
+                      <div id="swipe1-swiper3-work1-after">
+                        <div class="swipe1-swiper3-swipe1-video">
+                          <video autoplay muted loop src="https://player.vimeo.com/progressive_redirect/playback/1000438726/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cd0a01bd995d6998f1f4a82cb2335f4213e7aceb15314153333eef699cfdb71a"></video>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="swipe1-swiper3-work2">
+                      <div id="swipe1-swiper3-work2-before">
+                        <div id="swipe1-swiper3-work2-before-head" class="swipe1-swiper3-swipe1-head">
+                          <h1>Delevery At Dawn</h1>
+                          <div class="swipe1-swiper2-about ">
+                            <a href=""><span>View project</span> <svg class="svg-arrow"  xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 22 19" class="arrow-link__svg arrow-link__svg--main"><path d="m10.392 16.88 7.232-7.264-7.264-7.232 1.696-1.76 8.992 8.992-8.96 8.992zM.568 8.304h18.4v2.656H.568z"></path></svg> </a>
+                          </div>
+                          
+                        </div>
+                        <div class="design">
+                         <div class="design2">
+                           
+                         </div>
+                         <div class="design3">
+     
+                         </div>
+                       </div>
+                      </div>
+                      <div id="swipe1-swiper3-work2-after">
+                        <div class="swipe1-swiper3-swipe1-video">
+                          <video autoplay muted loop src="https://player.vimeo.com/progressive_redirect/playback/1000438726/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cd0a01bd995d6998f1f4a82cb2335f4213e7aceb15314153333eef699cfdb71a"></video>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="swipe1-swiper3-work3">
+                      
+                    </div>
+
+                  </div>
+                </div>
+              <!-- <div id="swipe1-swiper3-swipe1">
+                <div id="swipe1-swiper3-swipe11">
+                 <div id="swipe1-swiper3-swipe1-head">
+                  <h1>Azuki Elementals</h1>
+                  <div class="swipe1-swiper2-about swipe1-swiper3-swipe1-head-about">
+                    <a href=""><span>View project</span> <svg class="svg-arrow"  xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 22 19" class="arrow-link__svg arrow-link__svg--main"><path d="m10.392 16.88 7.232-7.264-7.264-7.232 1.696-1.76 8.992 8.992-8.96 8.992zM.568 8.304h18.4v2.656H.568z"></path></svg> </a>
+                  </div>
+                  
+                </div>
+                  <div class="design">
+                    <div class="design2">
+                      <div class="design3">
+
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <div id="swipe1-swiper3-swipe1-video">
+                    <video autoplay muted loop src="https://player.vimeo.com/progressive_redirect/playback/1000438726/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cd0a01bd995d6998f1f4a82cb2335f4213e7aceb15314153333eef699cfdb71a"></video>
+              </div>
+              </div> -->
+              
+            </div>
+
+            <div id="footer" class="">
+              <div id="footer-wrapper">
+                <h5>/Make your Mark</h5>
+                <h1>The Studio</h1>
+
+                <div class="clients">
+                  <h5>/Clients + Partners</h5>
+                  <ul class="home-clients__list h3 slash-light">
+                    <li class="home-client">
+                      <span class="home-client__wrapper">Gucci</span>
+                    </li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <a href="https://www.riotgames.com/en" target="_blank" aria-label="External link to Riot Games" class="home-client__wrapper">
+                        <figure class="home-client__fig">
+                          <img src="https://www.datocms-assets.com/136821/1721315455-riot.svg" alt="Riot Games" width="133" height="44">
+                        </figure>
+                      </a>
+                    </li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <span class="home-client__wrapper">Mercedes-Benz</span>
+                    </li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <figure class="home-client__fig">
+                        <img src="https://www.datocms-assets.com/136821/1721315453-marvel.svg" alt="Marvel" width="97" height="44">
+                      </figure>
+                    </li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Virgin</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Gorillaz</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Garena</span></li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <figure class="home-client__fig">
+                        <img src="https://www.datocms-assets.com/136821/1721315454-mercedes.svg" alt="Mercedes" width="44" height="44">
+                      </figure>
+                    </li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Doritos</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Estee Lauder</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Kenzo</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Unilever</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Vice</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Sanrio</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Freeview</span></li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <figure class="home-client__fig">
+                        <img src="https://www.datocms-assets.com/136821/1721315451-blizzard.svg" alt="Blizzard" width="76" height="44">
+                      </figure>
+                    </li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Honda</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Channel 4</span></li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Ubisoft</span></li>
+                    <li class="home-client">
+                      <i>/</i>&nbsp;
+                      <figure class="home-client__fig">
+                        <img src="https://www.datocms-assets.com/136821/1721315452-honda.svg" alt="Honda" width="70" height="44">
+                      </figure>
+                    </li>
+                    <li class="home-client"><i>/</i>&nbsp;<span class="home-client__wrapper">Azuki</span></li>
+                  </ul>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 1684 419" class="footer__svg"><path d="M1684 215.276v90.04H0v-90.04z"></path><path d="M1483.31 102h95.98v316.592h-95.98z"></path><path d="M1684 328.552v90.04h-200.684v-90.04zM1684 102v90.04h-200.684V102zM1177.93 102h95.98v316.592h-95.98z"></path><path d="M1177.93 102h95.98l186.14 316.592h-95.98z"></path><path d="M1364.07 102h95.98v316.592h-95.98zM1058.68 102h95.98v316.592h-95.98zM852.18 102h95.98v316.592h-95.98z"></path><path d="M1035.41 328.552v90.04H852.177v-90.04zM535.156 102h95.98v316.592h-95.98z"></path><path d="M735.842 328.552v90.04H535.158v-90.04zM735.842 102v90.04H535.158V102zM258.852 102h95.98v316.592h-95.98zM415.908 102h95.98v316.592h-95.98zM69.805 102h95.979v316.592h-95.98z"></path><path d="M235.586 102v90.04H.001V102zM1640.9 85.809c-8.17 0-15.54-1.825-22.1-5.473-6.43-3.794-11.53-8.902-15.33-15.323-3.65-6.567-5.47-13.937-5.47-22.109s1.82-15.542 5.47-22.109c3.8-6.567 8.9-11.674 15.33-15.323C1625.36 1.824 1632.73 0 1640.9 0c8.18 0 15.47 1.824 21.89 5.473q9.855 5.473 15.33 15.322c3.79 6.567 5.69 13.937 5.69 22.11 0 8.171-1.9 15.541-5.69 22.108q-5.475 9.632-15.33 15.323c-6.42 3.648-13.71 5.473-21.89 5.473m0-9.194q14.235 0 23.43-9.413c6.13-6.421 9.19-14.52 9.19-24.298s-3.06-17.804-9.19-24.079q-9.195-9.63-23.43-9.631c-9.48 0-17.29 3.21-23.42 9.631-6.13 6.275-9.19 14.302-9.19 24.08s3.06 17.876 9.19 24.297c6.13 6.275 13.94 9.413 23.42 9.413m-15.76-56.695h19.27c5.1 0 9.12 1.24 12.04 3.721 2.91 2.481 4.37 5.765 4.37 9.85 0 2.92-.94 5.473-2.84 7.662q-2.85 3.283-7.23 4.378l10.73 19.263h-11.6l-6.79-13.572q-1.965-3.502-5.25-3.502h-2.41v17.074h-10.29zm18.39 19.263c2.04 0 3.65-.438 4.82-1.313 1.31-1.022 1.97-2.408 1.97-4.16 0-1.605-.66-2.845-1.97-3.72-1.17-1.022-2.78-1.533-4.82-1.533h-8.32v10.726z"></path></svg>
+              </div>
+              <div class="footer-end" >
+                <div class="footer-end-container">
+                  <div class="left-end">
+                  <div class="left-end-top">
+                      <h5>/ 
+                        Reach out</h5>
+                      <h1>info@thelineanimation.com <br>
+                        / 44 (0)20 30020224</h1>
+                  </div>
+                  <div class="left-end-bottom">
+                      <h1>Newsletter</h1>
+                  </div>
+                  </div>
+                  <div class="end-image">
+                      <img src="https://www.datocms-assets.com/136821/1728381584-tshirtillustrationfinals_v05.png?fit=crop&fm=webp&w=900" alt="">
+                  </div>
+                  <div class="right-end">
+                      <div class="right-end-top">
+                          <div>
+                            <h5>/ 
+                              Find us</h5>
+                            <h3>The Line Animation Studio Ltd</h3>
+                            <h3>
+                              Studio 02
+                              </h3>
+                            <h3>
+                              
+                              De Beauvoir Block, 92-96</h3>
+                            <h3>
+                              De Beauvoir Road</h3>
+                            <h3>London, N1 4EN</h3>
+                          </div>
+                          <div>
+                            <h5>/ 
+                              Social</h5>
+                            <h3>YouTube</h3>
+                              <h3>LinkedIn</h3>
+                              <h3>Facebook</h3>
+                              <h3>TikTok</h3>
+                              <h3>X</h3>
+                              <h3>Instagram</h3>
+                              
+                          </div>
+                          <div>
+                            <h5>/ 
+                              Nav</h5>
+                            <h3>Home</h3>
+                            <h3>Shop</h3>
+                            <h3>Contact</h3>
+                            <h3>Podcast</h3>
+                            <h3>Feed</h3>
+                            <h3>About</h3>
+                            <h3>Entertainment</h3>
+                          </div>
+                      </div>
+                      
+
+                      <div class="right-end-bottom">
+                        <h4>© THE LINE ANIMATION STUDIO 2024
+
+                          / 
+                         Site Credits
+                          / 
+                         Privacy
+                          / 
+                         Up</h4>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+
+        </section>
+        
+        
+        
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
